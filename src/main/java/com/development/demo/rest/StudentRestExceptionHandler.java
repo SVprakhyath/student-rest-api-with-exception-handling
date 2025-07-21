@@ -2,8 +2,10 @@ package com.development.demo.rest;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
+@ControllerAdvice
 public class StudentRestExceptionHandler {
 
     // Add exception handler using @ExceptionHandler annotation
